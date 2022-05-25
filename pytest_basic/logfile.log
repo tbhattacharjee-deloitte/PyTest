@@ -1,0 +1,30 @@
+2022-05-06 16:03:33,830: INFO: test_logger: info
+2022-05-06 16:03:33,830: WARNING: test_logger: warning
+2022-05-06 16:03:33,830: ERROR: test_logger: error
+2022-05-06 16:03:33,830: CRITICAL: test_logger: critical
+2022-05-06 16:04:07,051: INFO: test_logger: info
+2022-05-06 16:04:07,051: WARNING: test_logger: warning
+2022-05-06 16:04:07,051: ERROR: test_logger: error
+2022-05-06 16:04:07,051: CRITICAL: test_logger: critical
+2022-05-06 16:05:38,789: DEBUG: test_accessData: ['abc', 'def', 'ghi']
+2022-05-06 16:05:38,795: DEBUG: test_crossBrowser: ('Chrome', 'hello', 'world')
+2022-05-06 16:05:38,801: DEBUG: test_crossBrowser: ('Firefox', 'abc')
+2022-05-06 16:05:38,801: DEBUG: test_crossBrowser: ('Firefox', 'abc')
+2022-05-06 16:05:38,807: DEBUG: test_crossBrowser: ('IE', 'LLL')
+2022-05-06 16:05:38,807: DEBUG: test_crossBrowser: ('IE', 'LLL')
+2022-05-06 16:05:38,807: DEBUG: test_crossBrowser: ('IE', 'LLL')
+2022-05-06 16:05:38,815: INFO: test_logger: info
+2022-05-06 16:05:38,815: WARNING: test_logger: warning
+2022-05-06 16:05:38,815: ERROR: test_logger: error
+2022-05-06 16:05:38,815: CRITICAL: test_logger: critical
+2022-05-06 16:06:46,954: DEBUG: test_accessData: ['abc', 'def', 'ghi']
+2022-05-06 16:06:46,960: DEBUG: test_crossBrowser: ('Chrome', 'hello', 'world')
+2022-05-06 16:06:46,966: DEBUG: test_crossBrowser: ('Firefox', 'abc')
+2022-05-06 16:06:46,966: DEBUG: test_crossBrowser: ('Firefox', 'abc')
+2022-05-06 16:06:46,971: DEBUG: test_crossBrowser: ('IE', 'LLL')
+2022-05-06 16:06:46,971: DEBUG: test_crossBrowser: ('IE', 'LLL')
+2022-05-06 16:06:46,971: DEBUG: test_crossBrowser: ('IE', 'LLL')
+2022-05-06 16:06:46,979: INFO: test_logger: info
+2022-05-06 16:06:46,980: WARNING: test_logger: warning
+2022-05-06 16:06:46,980: ERROR: test_logger: error
+2022-05-06 16:06:46,980: CRITICAL: test_logger: critical

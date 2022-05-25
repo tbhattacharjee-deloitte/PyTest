@@ -1,0 +1,36 @@
+Rules to run pytest:-
+1. All test files must start with test_ or end with _test
+2. All tests should be written inside python methods
+3. Every method should begin with test_
+4. Method name should have sense
+5. Class name should begin with Test
+
+Pytest tags:-
+
+# you can mark groups by using @pytest.mark.tagName
+# you can skip a particular method by @pytest.mark.skip
+# @pytest.mark.xfail -> this will run the method but does not show whether the test passed or fail
+                   -> this is used when we know that the test will fail, but we need the operations of that 
+                   method for subsequent test-cases
+# @pytest.fixture(scope=<scope>, params = []):-
+    this will make the method to be used before and/or after a particular test method (see test_fixtureDemo.py)
+# conftest -> basically contains method wrapped with @pytest.fixture(scope=<scope>)
+           -> It is similar to Listener in testng
+
+
+Running Pytest from terminal:-
+
+1. inorder to run all the test files from cmd using pytest use -> py.test -v -s
+2. Run a specific test file -> py.test fileName -v -s
+3. Run only specific methods that matches a given regular expression: py.test -k regex -v -s
+4. you can mark (tags/groups) test cases using @pytest.mark.tagName and use -m tagName to run those
+              -> py.test -m tagName -v -s
+5. Generate html report -> pytest --html=report.html
+
+
+
+-k -> for method name execution using pattern matching with a regex
+-v -> verbose => more info
+-s -> show thw logs
+-m -> run the mark of given tagName
+
